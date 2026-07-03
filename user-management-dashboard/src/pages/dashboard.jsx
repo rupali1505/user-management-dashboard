@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import UserForm from "../components/UserForm";
-import { deleteUser as deleteApi } from "../api/userService";
+import { deleteUser as deleteApi } from "../api/userService.js";
 import FilterDialog from "../components/FilterDialog";
 import ConfirmDelete from "../components/ConfirmDelete";
 import {

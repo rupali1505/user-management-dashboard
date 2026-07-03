@@ -29,7 +29,7 @@ const FilterDialog = ({ open, onClose, filters, setFilters }) => {
             />
           </Grid>
 
-          <Grid item xs={12}>
+          <Grid size={12}>
             <TextField
               fullWidth
               label="Last Name"
@@ -43,7 +43,7 @@ const FilterDialog = ({ open, onClose, filters, setFilters }) => {
             />
           </Grid>
 
-          <Grid item xs={12}>
+          <Grid size={12}>
             <TextField
               fullWidth
               label="Email"
@@ -57,7 +57,7 @@ const FilterDialog = ({ open, onClose, filters, setFilters }) => {
             />
           </Grid>
 
-          <Grid item xs={12}>
+          <Grid size={12}>
             <TextField
               fullWidth
               label="Department"
